@@ -165,7 +165,23 @@ for(let i = 99; i > 95; i--){
 //and anything below 60 should be F
   
 
-
+function gradeCalculator(marks){
+    if(marks >= 90){
+        return('A')
+    }
+    else if(marks >= 80){
+        return('B')
+    }
+    else if(marks >=70){
+        return('C')
+    }
+    else if(marks >=60){
+        return('D')
+    }
+    else{
+        return('F')
+    }
+}
   
 
 /************************************************************** Stretch **************************************************************/
