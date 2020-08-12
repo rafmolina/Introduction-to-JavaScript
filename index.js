@@ -143,16 +143,18 @@ console.log(measure(8,0))
 // create a function called annoyingSong
 // the function should take a starting number as an argument and count down - at each iteration it should log (number) bottles of soda on the wall, (number) bottles of soda, take one down pass it around (number left over) bottles of soda on the wall`
   
-for(let i = 99; i > 95; i--){
-        function annoyingSong(bottles,beer){
-            let bottles = "bottles of soda on the wall, bottles of soda,";
-            let beer = "takeon one down pass it around bottles of soda on the wall";
-            if( drink<=99){
-                console.log(beer)
-            }
-        }s
-    
+//for(let i = 99; i > 98; i--)
+
+    function annoyingSong(bottles){
+        let b = 'bottles of soda on the wall'
+        if(bottles >= 99){
+            return (b)
+        }
+        else if(bottles >= 98){
+            return (b)
+        }
     }
+    console.log(annoyingSong())
 
 
 /************************************************************** Task 7 **************************************************************/
@@ -182,7 +184,7 @@ function gradeCalculator(marks){
         return('F')
     }
 }
-  
+  console.log(gradeCalculator())
 
 /************************************************************** Stretch **************************************************************/
 //Create a function that counts the number of vowels within a string. It should handle both capitalized and uncapitalized vowels.
